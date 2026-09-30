@@ -2,6 +2,7 @@ import kotlinx.coroutines.delay
 import kotlin.random.Random
 
 class MovieCatalogue {
+    //Todo add readme
     private val items = mutableListOf<MediaItem>()
 
     fun add(item: MediaItem) {
